@@ -1,0 +1,108 @@
+#div1{
+    display: flex;
+    justify-content: end;
+    color:black ;
+    
+}
+#div1>a{
+    text-decoration:none;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+      
+}
+#div1>span{
+    margin: 10px;
+
+}
+#div2{
+    color: black ;
+    display: flex;
+    margin-left: 50px;
+}
+
+#div2>h1{
+font-size: 40px;
+color: black;
+position: absolute;
+
+}
+#div2>p{
+    position: absolute;
+margin-top: 150px;
+font-size: 19px;
+}
+#div2>button{
+    width: 200px;
+    height: 50px;
+    background-color:black;
+    color: aliceblue;
+    margin-top: 250px;
+    font-size: 17px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(138, 136, 136);
+}
+
+#div2>button:hover{
+    background-color: #d0ac91;  
+}
+
+#div2>img{
+    height: 350px;
+    width:350px;
+    margin-left: 500px;
+    }
+
+#div3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#div3>div>div{
+    height: 166px;
+    width: 170px;
+    background-color:#d0ac91;
+    border-radius: 7px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    box-shadow: 10px 5px 5px rgb(138, 136, 136);
+}
+#div3>div>div>h4{
+    margin: 0px;
+    padding-top: 90px;
+    margin-left: 40 px;
+    position: absolute;
+}
+
+#div3>div>img{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-top: 10px;     
+}
+
+#div3>div>div>p{
+    margin-right: 7px;
+    padding-top: 110px;
+}
+
+#div3>h2{
+    transform: rotate(270deg);
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+#div3>span{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    background-color:black;
+    color: white;
+    margin-bottom: 90px;
+    box-shadow: 10px 5px 5px rgb(138, 136, 136);
+}
+#div3>span:hover{
+    background-color: #d0ac91;
+}
